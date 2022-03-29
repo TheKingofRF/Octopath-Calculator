@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-    <meta charset="utf-8">
-    <script src="app.js" charset="utf-8"></script>
-    <link rel="sytlesheet" href="style.css"><link>
-    <title>Battle Counter </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="app.js" charset="utf-8"></script>
+        <title>Battle Counter </title>
+        <link rel="sytlesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <h3>Battles left: <span id="bats">0</span></h3>
-        <div class="grid">
-            <div></div><button id="opps">Opps!</button>
-            <div><button id="done">Victory!</button></div>
-            <div><textarea id="setter"></textarea></div>
-            <div><button id="set">Set</button></div>
-        </div>
+
+    <h3>Battles left: <span id="bats">0</span></h3> 
+    <h3><i>Xp left to gain: <span id="XpleftStat">0</span></i></h3>
+    <h3><i> Levels left: <span id="LvlsLeftstat">0</span></i></h3>
+    <div></div><button id="opps">Opps!</button>
+    <div><button id="done">Victory!</button></div>
+    Battles Needed:<input type="number" name="settertext" id="setter"></input>
+    <div><button id="set">Set</button></div>
+    Xp gained per battle:<input type="number" name="battlexp" id="expPerBat">
+    <div>Xp Needed for Goal:<input type="number" name="xpgoal" id="goalxp"></div>
+    Goal amount of Levels:<input type="number" name="level goal" id="goalLvl">
+
     </body>
-</html>
+    </html>

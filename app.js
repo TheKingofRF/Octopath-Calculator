@@ -15,11 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
         let noLetters = /\w\s/g;
         let onlyNumbers = /[0-9]/g
         let setterboxValue = setterbox.value
-        if (noLetters.test(setterboxValue)) {
+        if (setterboxValue === "") {
             battles = "NO LETTERS"
+            setterbox.value = ""
             newScore()
         } else if (onlyNumbers.test(setterboxValue)){
             battles = setterbox.value
+            setterbox.value = ""
             newScore()
 
         }

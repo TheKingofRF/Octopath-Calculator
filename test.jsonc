@@ -1,0 +1,13 @@
+{
+    "data":[
+        {
+            "level": 1, "toNextLevel": 10, "totalXp": 15
+        },
+        {
+            "level": 2, "toNextLevel": 20, "totalXp": 30
+        },
+        {
+            "level": 3, "toNextLevel": 30, "totalXp": 45
+        }
+    ]
+}
