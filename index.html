@@ -11,17 +11,19 @@
   crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-
-    <h3>Battles left: <span id="bats">0</span></h3> 
-    <h3><i>Xp left to gain: <span id="XpleftStat">0</span></i></h3>
-    <h3><i> Levels left: <span id="LvlsLeftstat">0</span></i></h3>
-    <div></div><button id="opps">Opps!</button>
-    <div><button id="done">Victory!</button></div>
-    Battles Needed:<input type="number" name="settertext" id="setter"></input>
-    <div><button id="set">Set</button></div>
-    Xp gained per battle:<input type="number" name="battlexp" id="expPerBat">
-    <div>Xp Needed for Goal:<input type="number" name="xpgoal" id="goalxp"></div>
-    Goal amount of Levels:<input type="number" name="level goal" id="goalLvl">
-
+        <h3>Battles Fought: <span id="batsdone">0</span></h3>
+        <h3><i>Battles left: <span id="bats">0</span></i></h3>
+        <h3><i>Xp left to gain: <span id="XpleftStat">0</span></i></h3>
+        <h3>Current Level: <span id="CurLvlStat">0</span></h3>
+        <h3><i> Levels left: <span id="LvlsLeftstat">0</span></i></h3>
+        <div><button id="done">Victory!</button>
+        <button id="opps">Opps!</button>
+        <div><button id="set">Set</button></div>
+        Xp gained per battle:<input type="number" name="battlexp" id="expPerBat">
+        <div>Current Level:<input type="number" name="currLvl" id="CurLvl"></div>
+        Goal amount of Levels:<input type="number" name="level goal" id="goalLvl">
+        </div>
+        
     </body>
     </html>
+    Battles Needed:<input type="number" name="settertext" id="setter">
