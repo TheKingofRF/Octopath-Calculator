@@ -32,7 +32,8 @@
         },
         {
             "level": 10, "toNextLevel": 99, "totalXp": 434
-        },        {
+        },
+        {
             "level": 11, "toNextLevel": 143, "totalXp": 577
         },
         {
@@ -61,7 +62,8 @@
         },
         {
             "level": 20, "toNextLevel": 535, "totalXp": 3872
-        },        {
+        },
+        {
             "level": 21, "toNextLevel": 566, "totalXp": 4438
         },
         {
@@ -90,7 +92,8 @@
         },
         {
             "level": 30, "toNextLevel": 1454, "totalXp": 13550
-        },        {
+        },
+        {
             "level": 31, "toNextLevel": 1583, "totalXp": 15133
         },
         {
@@ -292,7 +295,7 @@
             "level": 97, "toNextLevel": 658658, "totalXp": 4715024
         },
         {
-            "level": 98, "toNextLevel": 790390, "totalXp": 5505414
+            "level": 98, "toNextLevel": 790390, "totalXp": 55054141
         },
         {
             "level": 99, "toNextLevel": 20, "totalXp": 30
