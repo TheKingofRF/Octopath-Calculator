@@ -8,21 +8,22 @@
         <title>Battle Counter </title>
         <link rel="sytlesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
+crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <h3>Battles Fought: <span id="batsdone">0</span></h3>
-        <h3><i>Battles left: <span id="bats">0</span></i></h3>
-        <h3><i>Xp left to gain: <span id="XpleftStat">0</span></i></h3>
-        <h3>Current Level: <span id="CurLvlStat">0</span></h3>
-        <h3><i> Levels left: <span id="LvlsLeftstat">0</span></i></h3>
+        <h3><i>Battles left: <span id="bats">1</span></i></h3>
+        <h3><i>Xp left to gain: <span id="XpleftStat">5</span></i></h3>
+        <h3><i>Xp left to next level: <span id="XplefNexttStat">5</span></i></h3>
+        <h3>Current Level: <span id="CurLvlStat">1</span></h3>
+        <h3><i> Levels left: <span id="LvlsLeftstat">1</span></i></h3>
         <div><button id="done">Victory!</button>
         <button id="opps">Opps!</button>
-        <div><button id="set">Set</button></div>
-        Xp gained per battle:<input type="number" name="battlexp" id="expPerBat">
-        <div>Current Level:<input type="number" name="currLvl" id="curLvl"></div>
-        <div>Current Xp:<input type="number" name="Currentxpin" id="curXp"> </div>
-        Goal amount of Levels:<input type="number" name="level goal" id="goalLvl">
+        <div><button id="set">Set</button><button id="reset">Reset</button> </div>
+        Xp gained per battle:<input type="number" name="battlexp" id="expPerBat" value="5">
+        <div>Current Level:<input type="number" name="currLvl" id="curLvl" value="1"></div>
+        <div>Current Xp:<input type="number" name="Currentxpin" id="curXp" value="1"> </div>
+        Goal Level:<input type="number" name="level goal" id="goalLvl" value="2">
         </div>
 
     </body>
